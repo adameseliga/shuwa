@@ -27,7 +27,7 @@ from pipeline import Pipeline
 cap = cv2.VideoCapture(0)
 
 
-
+# Inherits GUI and Pipeline classes
 class Application(DemoGUI, Pipeline):
 
     def __init__(self):
